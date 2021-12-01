@@ -8,16 +8,16 @@ public class App {
         multiplicar multiplicar = new multiplicar();
         somar somar = new somar();
 
-        dividir.dividir(12, 2);
-        subtrair.subtrair(10 , 3);
-        multiplicar.multiplicar(9, 3);
-        somar.somar(2, 5);
+        float divisao = dividir.dividir(30, 2);
+        float subtrai = subtrair.subtrair(10 , 3);
+        float multiplica = multiplicar.multiplicar(9, 3);
+        float soma = somar.somar(2, 5);
 
         System.out.println(
-                "valor da divisão: " + dividir + "\n"
-                + "valor da subtração: " + subtrair + "\n"
-                + "valor da multiplicação: " + multiplicar + "\n"
-                + "valor da soma: " + somar + "\n"
+                "valor da divisão: " + divisao + "\n"
+                + "valor da subtração: " + subtrai + "\n"
+                + "valor da multiplicação: " + multiplica + "\n"
+                + "valor da soma: " + soma + "\n"
         );
 
     }
